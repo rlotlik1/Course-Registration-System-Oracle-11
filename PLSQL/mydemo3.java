@@ -23,7 +23,7 @@ public class mydemo3 {
 
       OracleDataSource ds = new oracle.jdbc.pool.OracleDataSource();
       ds.setURL("jdbc:oracle:thin:@castor.cc.binghamton.edu:1521:acad111");
-      Connection conn = ds.getConnection("rlotlik1", "AYIRlotli23");
+      Connection conn = ds.getConnection("username", "password");
 
       while (flag) {
         Scanner input = new Scanner(System.in);
